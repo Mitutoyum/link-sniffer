@@ -9,6 +9,7 @@ A simple selfbot to steal bloxfruit's private server links that are being sent o
 ```
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
+- you have to be in the server and can access the `#sea-events` channel
 
 ### Installation
 - run these commands
