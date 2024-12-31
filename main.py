@@ -6,7 +6,7 @@ from os import getenv
 from dotenv import load_dotenv
 from core.bot import Bot
 
-selfcord.utils.setup_logging(root=False)
+selfcord.utils.setup_logging(root=True)
 
 filehandler = logging.FileHandler("records.txt", encoding="utf-8")
 
