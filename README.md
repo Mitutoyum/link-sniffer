@@ -5,11 +5,12 @@ A simple selfbot to steal bloxfruit's private server links that are being sent o
 
 - records are saved in `records.txt`
 
+- you have to be in the server and have access to the `#sea-events` channel
+
 - to get your account token, you can paste this code into the console
 ```
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
-- you have to be in the server and can access the `#sea-events` channel
 
 ### Installation
 ```
