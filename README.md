@@ -12,7 +12,6 @@ A simple selfbot to steal bloxfruit's private server links that are being sent o
 - you have to be in the server and can access the `#sea-events` channel
 
 ### Installation
-- run these commands
 ```
 git clone https://github.com/Mitutoyum/bloxfruits-link-stealer.git
 
