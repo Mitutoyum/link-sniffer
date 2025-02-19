@@ -1,22 +1,31 @@
-A simple selfbot to steal bloxfruit's private server links that are being sent on the discord server (`#sea-events` channel)
+# Link Sniffer
 
-### Notes
-- :exclamation::exclamation:DO NOT use your main discord account for this, i am not responsible for anything happens to your account:exclamation::exclamation:
+Discord selfbot to sniff for links with 3 variants
 
-- records are saved in `records.txt`
+| Variant   | Description                  |
+| :-------- | :-------                     |
+| `global`  | Sniffs on all servers        |
+| `server`  | Sniffs on a specific server  |
+| `channel` | Sniffs on a speicifc channel |
 
-- you have to be in the server and have access to the `#sea-events` channel
+You can set sniff type on `config.json`
 
-- to get your account token, you can paste this code into the console
+## Notes
+Dont use your main account to sniff
+
+Records are saved in `records.txt`
+
+Your token is saved in `.env`
+
+To get your account token, paste this code into the console
 ```
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
 
-### Installation
+## Installation
 ```
-git clone https://github.com/Mitutoyum/bloxfruits-link-stealer.git
-
-cd ./bloxfruits-link-stealer
+git clone https://github.com/Mitutoyum/link-sniffer.git
+cd ./link-sniffer
 
 pip install -r requirements.txt
 

@@ -1,4 +1,5 @@
-# check for valid links and remove duplicates, invalid
+# remove duplicates
+# todo: validation
 
 
 def check():
