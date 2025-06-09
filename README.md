@@ -6,7 +6,7 @@ Discord selfbot to sniff for links with 3 variants
 | :-------- | :-------                     |
 | `global`  | Sniffs on all servers        |
 | `server`  | Sniffs on a specific server  |
-| `channel` | Sniffs on a speicifc channel |
+| `channel` | Sniffs on a specific channel |
 
 You can set sniff type on `config.json`
 
